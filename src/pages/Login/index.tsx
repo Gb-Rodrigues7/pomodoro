@@ -24,7 +24,7 @@ export default function Login() {
     const success = login(cleanUsername, cleanPassword);
     
     if (success) {
-      alert('Bem-vindo(a) ao Chronos Pomodoro!'); 
+      alert('Sucesso ao fazer login! '); 
       setFeedback(''); 
     } else {
       setFeedback('Usuário ou senha incorretos.');

@@ -19,6 +19,7 @@
   text-align: center;
 }
 
+
 .card h2 {
   margin-bottom: 1.5rem;
   color: #e1e1e6;
@@ -63,13 +64,13 @@
 
 .inputGroup input:focus {
   outline: none;
-  border-color: #8257e5;
-  box-shadow: 0 0 0 1px #8257e5;
+  border-color: #2927aa;
+  box-shadow: 0 0 0 1px #3c47e9;
 }
 
 .button {
   padding: 1rem;
-  background-color: #8257e5;
+  background-color: #180cbe;
   color: white;
   border: none;
   border-radius: 6px;
@@ -81,7 +82,7 @@
 }
 
 .button:hover {
-  background-color: #9466ff;
+  background-color: #5761f8;
 }
 
 .actions {
@@ -148,7 +149,7 @@
   transform: translateY(-50%);
   background: transparent;
   border: none;
-  color: #8257e5;
+  color: #1c0fd3;
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
@@ -157,5 +158,5 @@
 }
 
 .togglePasswordBtn:hover {
-  color: #9466ff;
+  color: #5761f8;
 }
